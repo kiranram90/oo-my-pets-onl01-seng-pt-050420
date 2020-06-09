@@ -33,7 +33,7 @@ class Owner
   def cats 
     Cat.all.collect |cats|
     cats.owner = self.name
-  end
+
   end
     
 end
