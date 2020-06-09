@@ -31,8 +31,11 @@ class Owner
   end
   
   def cats 
-    Cat.all.each do |cats|
+    list =[]
+    acat = Cat.all.each do |cats|
     cats.owner = self.name
+    list << acat 
+    list
   end
 
   end
