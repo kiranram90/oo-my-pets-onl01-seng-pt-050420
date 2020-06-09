@@ -32,7 +32,7 @@ class Owner
   
   def cats 
     Cats.all.select |cats|
-    cats.owner = self 
+    cats.owner = self.name
   end
     
 end
