@@ -7,4 +7,8 @@ class Owner
     @species = "human"
     
   end  
+  
+  def say_species 
+    @species
+  end
 end
