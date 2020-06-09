@@ -9,6 +9,6 @@ class Owner
   end  
   
   def say_species 
-    @species
+    self.species
   end
 end
