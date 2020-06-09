@@ -9,6 +9,6 @@ class Owner
   end  
   
   def say_species 
-    "I am a Human."
+    "I am a human."
   end
 end
