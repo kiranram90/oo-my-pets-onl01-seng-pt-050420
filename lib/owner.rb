@@ -32,7 +32,7 @@ class Owner
   
   def cats 
     Cat.all.each do |cats|
-    cats.owner = self
+    cats.owner == self
   end
 
   end
