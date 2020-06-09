@@ -31,7 +31,7 @@ class Owner
   end
   
   def cats 
-    Cat.all.each do |cats|
+    Cat.all.collect |cats|
     cats.owner = self.name
   end
   end
