@@ -27,6 +27,7 @@ class Owner
   
   def self.reset_all 
     @@all = []
+    @@count = 0
   end
     
 end
